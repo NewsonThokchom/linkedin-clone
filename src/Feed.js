@@ -41,8 +41,8 @@ function Feed() {
     const sendPost = async (e) => {
         e.preventDefault()
         await addDoc(postsCollectionRef, {
-            name: 'Newson Singh',
-            description: 'This is firebase test',
+            name: 'Newson Thokchom',
+            description: 'Description',
             message: input,
             photoUrl: '',
             timestamp: serverTimestamp(),
